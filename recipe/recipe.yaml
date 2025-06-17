@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: azure-mgmt-appconfiguration
-  version: 4.0.0
+  version: "5.0.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/azure_mgmt_appconfiguration-${{ version }}.tar.gz
-  sha256: c7d22d47c86242b8f7d752f1dc18288da4ac41c2f69740b97dee80239f0f0cee
+  sha256: f8f0f81b790d1ed77bbc052ecdcf7b13091fad88b10c1f3f471000dbd9c20977
 
 build:
   number: 0
